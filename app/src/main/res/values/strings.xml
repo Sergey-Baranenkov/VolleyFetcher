@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VolleyProject</string>
+    <string name="date">Дата: %s</string>
+    <string name="milliseconds">Миллисекунд прошло: %s</string>
+    <string name="time" >Время: %s</string>
+    <string name="fetch_button">Загрузить новую информацию</string>
+</resources>
