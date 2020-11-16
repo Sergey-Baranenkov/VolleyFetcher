@@ -60,13 +60,10 @@ class MainActivity : AppCompatActivity() {
                 }
             }) { error: VolleyError ->
                 if (error is NoConnectionError) {
-                    if (error.message !== null){
                         showError("Невозможно получить информацию с сервера")
                     } else {
                         error.printStackTrace()
                     }
-                }
-
             }
         mRequestQueue!!.add(request)
     }
